@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EBC.Configuration.V2">
+      <HintPath>D:\VS\_Publish\EBC GUI Framework\EBC.Configuration.V2.dll</HintPath>
+    </Reference>
+    <Reference Include="tp.Global">
+      <HintPath>D:\VS\_Publish\tp Framework\Debug 2102\tp.Global.dll</HintPath>
+    </Reference>
+    <Reference Include="tp.Interfaces">
+      <HintPath>D:\VS\_Publish\EBC GUI Framework\tp.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="tp.Model">
+      <HintPath>D:\VS\_Publish\tp Framework\Debug 2102\tp.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
